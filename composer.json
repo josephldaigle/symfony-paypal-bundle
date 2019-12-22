@@ -2,7 +2,7 @@
     "name": "leadpail/symfony-paypal-bundle",
     "description": "A PayPal integration for Symfony ^4.3",
     "type": "symfony-bundle",
-    "license": "GNU",
+    "license": "GPL-3.0-or-later",
     "authors": [
         {
             "name": "Joe Daigle",

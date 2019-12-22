@@ -1,0 +1,13 @@
+{
+    "name": "leadpail/syfmony-paypal-bundle",
+    "description": "A PayPal integration for Symfony ^4.3",
+    "type": "symfony-bundle",
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "Joe Daigle",
+            "email": "josephldaigle@yahoo.com"
+        }
+    ],
+    "require": {}
+}

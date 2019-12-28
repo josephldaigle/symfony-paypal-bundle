@@ -1,5 +1,5 @@
 {
-    "name": "leadpail/symfony-paypal-bundle",
+    "name": "leadpail/leadpail-paypal-bundle",
     "description": "A PayPal integration for Symfony ^4.3",
     "type": "symfony-bundle",
     "license": "GPL-3.0-or-later",
@@ -9,5 +9,12 @@
             "email": "josephldaigle@yahoo.com"
         }
     ],
-    "require": {}
+    "require": {
+        "symfony/http-kernel": "^4.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "LeadPail\\PayPalBundle\\": "src/"
+        }
+    }
 }

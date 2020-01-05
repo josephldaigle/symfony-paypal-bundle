@@ -10,11 +10,16 @@
         }
     ],
     "require": {
-        "symfony/http-kernel": "^4.4"
+        "symfony/http-kernel": "^4.4",
+        "symfony/dependency-injection": "^4.4"
     },
     "autoload": {
         "psr-4": {
-            "LeadPail\\PayPalBundle\\": "src/"
+            "LeadPail\\PayPalBundle\\": "src/",
+            "LeadPail\\PayPalBundle\\Test": "Tests/"
         }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
     }
 }
